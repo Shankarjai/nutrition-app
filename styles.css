@@ -1,0 +1,70 @@
+*{
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) { 
+	/* background: #eee;  */
+	background: #e6cccf;
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	font-weight: 400;
+	} 
+
+th { 
+	/* background: #3498db;  */
+	background: #b71e42; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+.nutrient-name{
+	font-weight: 600;
+	color: #970d2e;
+}
+
+.nutrient-value{
+
+}
+
+#mineral{
+
+}
+
+#main-container{
+	min-width: 60%;
+  	padding: 1%;
+}
+
+#body-wrapper{
+	display: flex;
+  	justify-content: center;
+}
+
+#overview-card-container{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+#overview-card{
+	max-width: 50%;
+	background-color: #e3f7fd;
+	display: flex;
+	justify-content: space-between;
+	min-width: 600px;
+}
+
+#overviwe-card-details{
+	width: 40%;
+	display: flex;
+	align-items: center; 
+}
