@@ -170,8 +170,9 @@ this.table = {
                       
     } 
 
+let base_url = 'http://localhost/nutri/';    
 
-var url = 'http://localhost/php/request.php'
+var url = `${base_url}request.php`
 var button = document.getElementById("json");
 button.onclick = function(){
         fetch(url)
@@ -196,7 +197,7 @@ button.onclick = function(){
 
 var sbutton = document.getElementById("search_submit");
 sbutton.onclick = function(){
-        var sqlurl = `http://localhost/php/request.php?q=${document.getElementById('search').value}`;
+        var sqlurl = `${base_url}request.php?q=${document.getElementById('search').value}`;
 
         if( idExist(parseInt(document.getElementById('search').value)) ){
             console.log("id already exist");
