@@ -172,6 +172,3 @@ document.getElementById("search_submit").onclick = () => {
     const searchId = document.getElementById('search').value;
     nutrientTable.addNutrientData('http://localhost/php/request.php', searchId);
 };
-
-
-/* source tree testing */ 
