@@ -1,19 +1,18 @@
-<div class="side-bar-container">
+<div class="sidebar-container">
+    
+    <div class="sidebar-menus">
 
-    <div class="side-bar-menus">
-
-        <div class="side-bar-menu">
-            <p>Vitamins</p>
+        <div class="sidebar-menu <?php echo($current_page == 'vitamins' ? 'sidebar-menu-active' : '') ?>">
+            <a class="sidebar-link" href="vitamins.php" tab="vitamins">Vitamins</a>
         </div>
-
-        <div class="side-bar-menu">
-            <p>Food</p>
-        </div>
-
-        <div class="side-bar-menu">
-            <p>Demo</p>
+        <div class="sidebar-menu <?php echo($current_page == 'food' ? 'sidebar-menu-active' : '') ?>">
+            <a class="sidebar-link" href="food.php" tab="food">Food</a>
         </div>
 
     </div>
 
 </div>
+
+<script>
+    $('.sidebar-menu-active')[0].style.background = 'red'; 
+</script>

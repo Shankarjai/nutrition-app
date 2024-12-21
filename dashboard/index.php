@@ -1,9 +1,8 @@
-<html>
-    <head>
-        <title>Dashboard</title>
-        <link rel="stylesheet" href="css/style.css"></link>
-        <link rel="stylesheet" href="../utility/lib/reset.css"></link>
-    </head>
+<!DOCTYPE html>
+    
+    <?php
+        include '../utility/html_template/header.php'
+    ?>
 
 
     <body>

@@ -1,14 +1,17 @@
-.side-bar-container{
+.sidebar-container{
     width: 25%;
     background-color: #0b42aa;
     height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
-.side-bar-menus{
+.sidebar-menus{
 
 }
 
-.side-bar-menu{
+.sidebar-menu{
     font-size: 20px;
     color: white;
     font-weight: bold;
@@ -19,13 +22,25 @@
     padding: 5px;
 }
 
-.side-bar-menu p{
+.sidebar-link{
+    color: white;
+    text-decoration: none;
     align-content: center;
 }
 
-.side-bar-menu:hover{
+.sidebar-link:hover{
+
+}
+
+
+
+.sidebar-menu:hover{
     background-color: #0a2e71;
     cursor: pointer;
+}
+
+.sidebar-menu:visited{
+    background-color:red;
 }
 
 .main-container{
