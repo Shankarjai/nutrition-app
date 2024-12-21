@@ -1,0 +1,35 @@
+.side-bar-container{
+    width: 25%;
+    background-color: #0b42aa;
+    height: 100%;
+}
+
+.side-bar-menus{
+
+}
+
+.side-bar-menu{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    padding: 5px;
+}
+
+.side-bar-menu p{
+    align-content: center;
+}
+
+.side-bar-menu:hover{
+    background-color: #0a2e71;
+    cursor: pointer;
+}
+
+.main-container{
+
+
+}
+
