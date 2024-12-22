@@ -9,11 +9,11 @@ mydb = mysql.connector.connect(
   database="food"
 )
 
-cursor = mydb.cursor();
+cursor = mydb.cursor(); 
 
 # SQL query to create the table 'food_items'
 create_table_query = """
-CREATE TABLE `food`.`food` (
+CREATE TABLE IF NOT EXISTS `food`.`food` (
 `food_id` INT NOT NULL AUTO_INCREMENT , 
 `food_name` VARCHAR(255) NOT NULL ,
 `food_category` VARCHAR(100) NOT NULL , 

@@ -1,5 +1,5 @@
 .sidebar-container{
-    width: 25%;
+    width: 15%;
     background-color: #0b42aa;
     height: 100%;
     position: fixed;
@@ -46,5 +46,16 @@
 .main-container{
 
 
+}
+
+/* common php main page css */
+
+.page-container{
+    background: green;
+    margin-left: 15%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;   
 }
 

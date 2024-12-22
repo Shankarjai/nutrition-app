@@ -11,6 +11,9 @@
         include 'template/sidebar.php';
     ?>
 
+    <div class="page-container">
+        <span>vitamins</span>
+    </div>
 
 </body>
 
