@@ -40,7 +40,7 @@
 }
 
 .sidebar-menu:visited{
-    background-color:red;
+    background-color:#ac2a2a;
 }
 
 .main-container{
@@ -59,3 +59,70 @@
     width: 100%;   
 }
 
+
+/* nutient page css */
+
+.nutrient-card{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #bbafaf;
+    margin: 5px;
+}
+
+.nutrient-card-title{
+
+}
+
+.pros-box{
+    background-color: #4aa44a;
+    border: 1px solid #2f682f;
+}
+
+.cons-box{
+    background-color: #a44a52;
+    border: 1px solid #6c2626;
+}
+
+.desc-card{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.button{
+    height: 20px;
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background: black;
+    color: white;
+}
+
+.delete{
+    background-color: #d23f3f;
+    color: #f9f9f9;
+}
+
+.delete:hover{
+    background-color: rgb(172, 28, 28);
+}
+
+.delete:active{
+    background-color: rgb(102, 16, 16);
+}
+
+.modify{
+    background-color: #ca6021;
+    color: #f9f9f9;
+}
+
+.modify:hover{
+    background-color:#b3531a;
+}
+
+.modify:active{
+    background-color: #863d12;
+}

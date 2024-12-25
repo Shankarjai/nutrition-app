@@ -14,5 +14,5 @@
 </div>
 
 <script>
-    $('.sidebar-menu-active')[0].style.background = 'red'; 
+    $('.sidebar-menu-active')[0].style.background = '#ac2a2a'; 
 </script>
