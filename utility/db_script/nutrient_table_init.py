@@ -56,6 +56,38 @@ FOREIGN KEY (`nutrient_id`) REFERENCES `nutrients`(`id`) ON DELETE CASCADE
 # Execute the query to create the table
 cursor.execute(create_table_query)
 
+# SQL query to create the table 'pro_variation'
+create_table_query = """
+CREATE TABLE IF NOT EXISTS `food`.`pro_variation` (
+`variation_id` INT NOT NULL AUTO_INCREMENT ,
+`pro_id` INT NOT NULL , 
+`variation_text` TEXT NOT NULL , 
+PRIMARY KEY (`variation_id`),
+FOREIGN KEY (`pro_id`) REFERENCES `nutrient_pros`(`pro_id`) ON DELETE CASCADE  
+) ENGINE = InnoDB; 
+
+
+"""
+
+# Execute the query to create the table
+cursor.execute(create_table_query)
+
+# SQL query to create the table 'con_variation'
+create_table_query = """
+CREATE TABLE IF NOT EXISTS `food`.`con_variation` (
+`variation_id` INT NOT NULL AUTO_INCREMENT ,
+`con_id` INT NOT NULL , 
+`variation_text` TEXT NOT NULL , 
+PRIMARY KEY (`variation_id`),
+FOREIGN KEY (`con_id`) REFERENCES `nutrient_cons`(`con_id`) ON DELETE CASCADE  
+) ENGINE = InnoDB; 
+
+"""
+
+# Execute the query to create the table
+cursor.execute(create_table_query)
+
+
 # Commit the changes
 mydb.commit()
 

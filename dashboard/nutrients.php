@@ -36,22 +36,25 @@
         ?>
 
         <div class="nutrient-card">
-                  
-            <div>
-                <button class="button">X</button>  
+            
+            <div class="nutrient-card-header">
+                <button class="button nutrition-toggle">X</button>  
                 <span class="nutrient-card-title">Nutrient Name</span>
                 <button class="button modify">modify</button>
                 <button class="button delete">delete</button>
             </div>
             
-            <div class="pros-box desc-card">
-                <p>the nutrient pros will be gone here </p>
+            <div class="nutrient-card-body">
+                <div class="pros-box desc-card">
+                    <p>the nutrient pros will be gone here </p>
 
-            </div>
-            <div class="cons-box desc-card">
-                <p>the nutrient cons will be gone here </p>
+                </div>
+                <div class="cons-box desc-card">
+                    <p>the nutrient cons will be gone here </p>
 
+                </div>
             </div>
+            
 
         </div>
     

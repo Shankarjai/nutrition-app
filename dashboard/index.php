@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     
     <?php
+        $current_page = 'index';
         include '../utility/html_template/header.php'
     ?>
 
