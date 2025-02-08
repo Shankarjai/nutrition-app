@@ -89,6 +89,12 @@
     margin-top: 5px;
 }
 
+.pro-variation{
+    border: 1px solid #126412;
+    background-color: #87ca87;
+    font-weight: bold;
+}
+
 .button{
     height: 20px;
     border: 1px solid black;
