@@ -13,7 +13,7 @@
     ?>
 
     <div class="page-container">
-        <span>nutrients</span>
+        
 
         <?php
 
@@ -32,7 +32,7 @@
 
             $results = [];
 
-            print_r($nutrients) ;
+            //print_r($nutrients) ;
 
 
             foreach($nutrients as $row){

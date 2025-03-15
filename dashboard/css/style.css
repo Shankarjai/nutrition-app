@@ -132,3 +132,14 @@
 .modify:active{
     background-color: #863d12;
 }
+
+
+/* Food page css */
+
+
+.food-table-container{
+    width: 85%;
+    background: black;
+    color: white;
+    padding:5px;
+}
