@@ -14,6 +14,7 @@ cursor = mydb.cursor();
 # SQL query to create the table 'food_items'
 create_table_query = """
 CREATE TABLE IF NOT EXISTS `food`.`food` (
+`usda_id` INT NOT NULL,
 `food_id` INT NOT NULL AUTO_INCREMENT , 
 `food_name` VARCHAR(255) NOT NULL ,
 `food_category` VARCHAR(100) NOT NULL , 
