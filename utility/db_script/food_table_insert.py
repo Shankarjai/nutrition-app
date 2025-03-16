@@ -13,7 +13,7 @@ cursor = mydb.cursor();
 
 # SQL query to create the table 'food_items'
 create_table_query = """
-INSERT INTO `food` (`food_id`, `food_name`, `food_category`, `water`, `kcal`, `protein`, 
+INSERT INTO `food` (`usda_id`,`food_id`, `food_name`, `food_category`, `water`, `kcal`, `protein`, 
 `Tryptophan`, `Threonine`, `Isoleucine`, `Leucine`, `Lysine`, `Methionine`, `Cystine`,
 `Phenylalanine`, `Tyrosine`, `Valine`, `Arginine`, `Histidine`, `Alanine`, 
 `Aspartic_acid`, `Glutamic_acid`, `Glycine`, `Proline`, `Serine`, `Fat`, 
@@ -22,7 +22,7 @@ INSERT INTO `food` (`food_id`, `food_name`, `food_category`, `water`, `kcal`, `p
 `B2`, `B3`, `B6`, `B9`, `B12`, `V_a`, `V_e`, `V_k`, `tsFat`, `tmsFat`,
 `tpusFat`, `transFat`, `cholest`, `caffine`, `alcho`, `hydroxyproline`, 
 `laz`, `V_d`, `sucrose`, `glucose`, `frutose`, `lactose`, `maltose`, 
-`galctose`, `strach`) VALUES ('1', 'Apple', 'Fruit', '1', '1', '1', '1', 
+`galctose`, `strach`) VALUES ('55565','1', 'Apple', 'Fruit', '1', '1', '1', '1', 
 '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '11', '1', '1', 
 '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', 
 '1', '1', '1', '1', '11', '1', '1', '1', '1.0', '1.0', '1.0', '1.0', 
